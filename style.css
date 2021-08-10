@@ -1,0 +1,171 @@
+*{
+    margin: 0 ;
+padding: 0;
+box-sizing: border-box;
+}
+
+:root{
+--main-color: #B83B5E;
+--secondary-color: #FFFFFF;
+}
+.navlinks,
+.logo,
+.btn-side{
+    margin-top: 20px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 30px;
+}
+.logo{
+    color: var(--main-color) !important;
+}   
+
+.navlinks li {
+    list-style-type: none;
+    display: inline-flex;
+    
+    
+}
+.navlinks li a{
+    padding: 5px 40px;
+    text-decoration: none;
+    color: var(--secondary-color);
+  
+}
+.btn-side{
+    margin-right: 30px !important;
+}
+.navlinks{
+    margin-left: 100px;
+}
+.btn{
+    width: 100px;
+    margin-left: 20px;
+    border: 0 !important;
+    color: var(--secondary-color) !important;
+}
+#btn-Signup{
+    background: var(--main-color) !important;
+}
+img{
+    width: 100px;
+}
+.main-container{
+    height: 760px;
+    width: auto;
+    background-size: cover !important;
+    background-position: center center !important;
+    background:linear-gradient(180deg,rgba(184,59,94,0.4) 0% , rgba(184,59,94,0.2) 100%) , url(https://s3-alpha-sig.figma.com/img/fe06/63ca/fd48bd9671079cbdcfeb6a11db853133?Expires=1629676800&Signature=B6GMJDNTJYYWfs2ft3JF-YW8Q1drCoPWnxP4lawdHtO-dG8lroTBkMbLGcgPO-ExLKWO4yug0~xWVnTDivWT3QLXrZcCKfZDDFhwD8boqeexjD-SeOHs3Py1MAtxadYQIFjICfbQWJ3wzEGkmJj8Cd~Ll6OeSRxvU8bCzHn4HzWsdbD~0BYs3vPHIvMh9sTTOh4dTFXp2lKAnLyAy4VvVt~sFM03tSqAnAYF97~tSlfpelmmw6RUbK9BiiuM~b6HVB2ZGEVLtESA5-eOK0SH6nocSGpfKBZNL5EN7yuY2SrnMTZxAwu0WcNTHTTnqKcBmSrItexd7nXqZflfkej-Rw__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA) ;
+}
+
+.hero-class{
+    color: var(--secondary-color);
+    width: 600px;
+    margin-top: 200px;
+    margin-left: 200px;
+}
+.hero-class h1 {
+    font-size: 50px;
+}
+.hero-class p{
+    margin: 20px 0 !important;
+}
+.btn-hero{
+    margin-top: 40px;
+    width: 120px !important;
+    border: 0 !important;
+    color: var(--secondary-color) !important;
+}
+.heroQuote{
+    padding: 6px !important;
+    background: var(--main-color) !important;
+}
+
+.heroRegistor{
+    border: 1px solid var(--main-color) !important;
+    color: var(--main-color) !important;
+}
+.heroCover{
+background:var(--main-color); 
+color: var(--secondary-color) !important;
+}
+.btn-service-father{
+    position: relative !important;
+}
+.btn-service-father img{
+box-shadow: 0 0 10px 0.2px #B83B5E;
+    border-radius: 6px;
+    width: 100% !important;
+    height: 300px !important;
+
+}
+.btn-service{
+    padding: 10px 15px !important;
+    position:absolute !important ;
+   right:140px;
+   background-color: var(--secondary-color) !important;
+   color: black !important;
+   bottom: 0;
+   border-top-right-radius: 5px !important;
+   border-bottom-right-radius: 5px !important;
+   width: 100px;
+}
+img{
+    width: 100%;
+}
+.img-height{
+    height: 340px !important;
+}
+.img-order{
+    border: 1px solid var(--main-color);
+}
+.offer-container{
+    background-color: #FAFAFA;
+}
+.carousel-item img {
+    border: 1px solid var(--main-color);
+    width: 100% !important;
+    height: 700px;
+}
+
+.card-offers{
+    background: none !important;
+    border:  0 !important;
+    border-radius: 8px !important;
+ width: 160px !important;
+ height: 160px !important;
+}
+.card-offers img{
+    border-radius: 8px;
+    width: 100% !important;
+    height: 100px;
+}
+.img-review{
+    margin-top: -58px;
+}
+.margin-leftDiv{
+    margin-left: 100px !important;
+}
+.hero-footer{
+    background-position: center center !important;
+    background-size: cover !important;
+    background:linear-gradient(rgba(184, 59, 94, 0.8) ,rgba(184, 59, 94, 0.8)) , url(https://s3-alpha-sig.figma.com/img/f915/5151/1a9ac6f1f1225c1b5ebd7a7bfc511d8d?Expires=1629676800&Signature=IjINGNbeO9zrJgKHTExGRq3p3m234WSeDlddtUIslm98XIC3Wh-0zg3rzWDJRtZAtKO0YdG2-AyVwPvoubxE~tNlMc1JiLfqGqk3mVIjCnRH-RwqD0lLVSfWdV3-7QHCakNo0N4gMMx4r-UViSfNbjsgQ35S0AMfau~6c6yZ8ToAVytbW7DMqxNHvltpqoW-tGzf5g5RZL9nayHGlOyMDvfpIZfl4kfEJOxC~UWX7YjDgxPFQIQngzzFSEv5EFmjM62FlrUym9N2iRWKyEmqUl1ctlr8JARLOqrBQhLrGPAoSbJqd8UZftPVLn8N~~wfFhLmwpSak2Ck54uIyqGTAQ__&Key-Pair-Id=APKAINTVSUGEWH5XD5UA) ;
+    color: var(--secondary-color);
+    
+}
+.form-controll{
+    background-color: #FAFAFA !important;
+    height: 56px !important;
+}
+.form-controlll{
+    background-color: #FAFAFA !important;
+    height: 156px;
+}
+.btn-send{
+    background-color: var(--main-color) !important;
+}
+.cs{
+    color: var(--main-color) !important;
+}
